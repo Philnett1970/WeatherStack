@@ -41,7 +41,7 @@ namespace WeatherStack
                 LocationName.Text = "Location: " + weather.location.name;
                 LocationRegion.Text ="State/Region:" + weather.location.region;
                 CurrentTemp.Text = "Current Temp:" + weather.current.temperature.ToString();
-                IMG.Source = img;
+                IMG.ImageSource = img;
 
             }
             catch (Exception)

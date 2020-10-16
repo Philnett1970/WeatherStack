@@ -18,11 +18,12 @@
             <TextBlock x:Name="LocationName"  
                        FontSize="20" 
                        Margin="20" />
-            
-            <Image x:Name="IMG"
-                   Height="75" 
-                   Width="75" 
-                   Margin="20"/>
+
+            <Ellipse Height="75" Width="75">
+                <Ellipse.Fill>
+                    <ImageBrush x:Name="IMG"/>
+                </Ellipse.Fill>
+            </Ellipse>
             
             <TextBlock x:Name="CurrentTemp"
                        FontSize="30"
